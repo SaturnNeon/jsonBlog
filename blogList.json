@@ -1,9 +1,3 @@
 {
-    "blogFile": [{
-        "file": "test"
-    }],
-
-    "blogTitle": [
-        "Test Post"
-    ]
+    "txt": ["test"]
 }
