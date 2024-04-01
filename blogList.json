@@ -1,7 +1,7 @@
 {
-    "blogFile": [
-        "test"
-    ],
+    "blogFile": [{
+        "file": "test"
+    }],
 
     "blogTitle": [
         "Test Post"
