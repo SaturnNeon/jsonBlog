@@ -8,5 +8,5 @@ xhttp.onreadystatechange = function() {
   } 
 }; 
 
-xhttp.open("GET", "./blogtxt/test.txt", true); 
+xhttp.open("GET", "./blogtxt/blogtxt/test.txt", true); 
 xhttp.send(); 
