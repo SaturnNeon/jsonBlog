@@ -1,11 +1,17 @@
 var table = "./blogList.json"
 
+var parsedTable = null
+
 var xhttp = new XMLHttpRequest(); 
 xhttp.onreadystatechange = function() { 
     if (this.readyState == 4 && this.status == 200) { 
         var blogs = this.responseText; 
         
-        console.log(JSON.parse(blogs))
+        parsedTable = JSON.parse(blogs)
+
+        for (var i = 0; i < parsedTable.shareInfo[i]; i++) {
+            print(i)
+        };
     } 
   }; 
 
