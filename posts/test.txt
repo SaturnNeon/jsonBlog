@@ -1,1 +1,2 @@
-Hi chat
+<h1>Hi Chat</h1>
+This is a test forum post reader system written in pure webjs and html.
