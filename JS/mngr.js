@@ -9,7 +9,7 @@ xhttp.onreadystatechange = function() {
         
         parsedTable = JSON.parse(blogs)
 
-        for (var i = 0; i < parsedTable.shareInfo[i]; i++) {
+        for (var i = 0; i < parsedTable.lengh; i++) {
             print(i)
         };
     } 
