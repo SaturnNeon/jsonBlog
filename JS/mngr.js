@@ -11,7 +11,7 @@ xhttp.onreadystatechange = function() {
         console.log(parsedTable)
 
         for (var i in parsedTable.name) {
-            
+            console.log("h")
         }
 
         //for (var i in parsedTable.length, i++) {
