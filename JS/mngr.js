@@ -10,7 +10,7 @@ xhttp.onreadystatechange = function() {
         parsedTable = JSON.parse(blogs)
         console.log(parsedTable)
 
-        for (var i in parsedTable.name) {
+        for (var i in parsedTable.name, i++) {
             console.log("h")
         }
 
