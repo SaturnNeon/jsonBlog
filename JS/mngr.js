@@ -8,11 +8,15 @@ xhttp.onreadystatechange = function() {
         var blogs = this.responseText; 
         
         parsedTable = JSON.parse(blogs)
+        console.log(parsedTable)
 
-        for (var i in parsedTable.length, i++) {
-            console.log("h")
+        JSON.array.forEach(parsedTable => {
+            console.log("tes")
+        });
+
+        //for (var i in parsedTable.length, i++) {
             //console.log(parsedTable[i].name)
-        };
+        //};
     } 
   }; 
 
