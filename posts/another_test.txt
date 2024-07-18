@@ -1,2 +1,0 @@
-<h1>Hello Mario.</h1>
-<a href="https://en.wikipedia.org/wiki/Chicken_nugget">chicken nuggets</a>
