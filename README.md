@@ -1,1 +1,1 @@
-# blog i use that is controlled via text documents
+rewritting this to function via JSON documents.
